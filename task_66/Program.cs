@@ -16,7 +16,7 @@ if (!int.TryParse(Console.ReadLine(), out int M) || M < 1)
 Console.WriteLine("Введите число N");
 if (!int.TryParse(Console.ReadLine(), out int N) || N < 1)
 {
-    Console.WriteLine("Введено нецелое или отрицательное число или 0");
+    Console.WriteLine("Ошибка ввода!");
     return;
 }
 
